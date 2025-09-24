@@ -156,14 +156,23 @@ function normalizeToArray(value) {
 // Prüfen, ob Rezept zu bisherigen Antworten passt
 function matchesUserSelection(recipe, selections) {
   for (let key in selections) {
-    const userValue = selections[key];
+    let userValue = selections[key];
     if (!userValue || userValue === "Random") continue;
 
-    const recipeValues = normalizeToArray(recipe[capitalizeKey(key)]);
-    if (!recipeValues.includes(userValue)) return false;
+    const recipeValue = recipe[capitalizeKey(key)];
+    if (!recipeValue) return false;
+
+    // Arrays für Vergleich normalisieren
+    const recipeArray = Array.isArray(recipeValue) ? recipeValue : [recipeValue];
+    const userArray = Array.isArray(userValue) ? userValue : [userValue];
+
+    // Prüfen, ob mindestens ein User-Wert im Rezept vorkommt
+    const match = userArray.some(val => recipeArray.includes(val));
+    if (!match) return false;
   }
   return true;
 }
+
 
 
 // Zufällige gültige Optionen für „Überrasch mich“
