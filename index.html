@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Gilmore Girls Rezept-Quiz</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Gilmore Girls Rezept-Quiz</h1>
+
+  <!-- Start-Bereich -->
+  <div id="start-screen">
+    <p>Willkommen! Starte das Quiz und finde dein Rezept </p>
+    <button id="start-button">Quiz starten</button>
+  </div>
+
+  <!-- Fragen-Bereich -->
+  <div id="quiz" style="display:none;">
+
+    <!-- Frage 1: Gang -->
+    <section id="frage-gang" class="frage-section">
+      <h2>Welchen Gang möchtest du kochen?</h2>
+      <button class="option-button" data-question="gang" data-value="Frühstück">Frühstück</button>
+      <button class="option-button" data-question="gang" data-value="Hauptgericht">Hauptgericht</button>
+      <button class="option-button" data-question="gang" data-value="Dessert">Dessert</button>
+      <button class="option-button" data-question="gang" data-value="Beilage">Beilage & Extras</button>
+      <button class="option-button" data-question="gang" data-value="Random">Überrasch mich!</button>
+    </section>
+
+    <!-- Frage 2a: Art Frühstück -->
+    <section id="frage-art-frühstück" class="frage-section" style="display:none;">
+      <h2>Welche Art von Frühstück?</h2>
+      <button class="option-button" data-question="art" data-value="Pancakes">Pancakes</button>
+      <button class="option-button" data-question="art" data-value="Backwaren">Backwaren & Gebäck</button>
+      <button class="option-button" data-question="art" data-value="Random">Überrasch mich!</button>
+    </section>
+
+    <!-- Frage 2b: Art Hauptgericht -->
+    <section id="frage-art-hauptgericht" class="frage-section" style="display:none;">
+      <h2>Welche Art von Hauptgericht?</h2>
+      <button class="option-button" data-question="art" data-value="Fine Dining">Fine Dining</button>
+      <button class="option-button" data-question="art" data-value="Fast Food">Fast Food</button>
+      <button class="option-button" data-question="art" data-value="Street Food">Street Food</button>
+      <button class="option-button" data-question="art" data-value="Comfort Food">Comfort Food</button>
+      <button class="option-button" data-question="art" data-value="Schmorgericht">Schmorgericht</button>
+      <button class="option-button" data-question="art" data-value="Curry">Curry</button>
+      <button class="option-button" data-question="art" data-value="Getreidegericht">Getreidegericht</button>
+      <button class="option-button" data-question="art" data-value="Sandwich">Sandwich</button>
+      <button class="option-button" data-question="art" data-value="Suppe">Suppe</button>
+      <button class="option-button" data-question="art" data-value="Kleinigkeit">Kleinigkeit</button>
+      <button class="option-button" data-question="art" data-value="Pastete">Pastete</button>
+      <button class="option-button" data-question="art" data-value="Nudeln">Nudeln</button>
+      <button class="option-button" data-question="art" data-value="Random">Überrasch mich!</button>
+    </section>
+
+    <!-- Frage 2c: Art Dessert -->
+    <section id="frage-art-dessert" class="frage-section" style="display:none;">
+      <h2>Welche Art von Dessert?</h2>
+      <button class="option-button" data-question="art" data-value="Kekse">Kekse</button>
+      <button class="option-button" data-question="art" data-value="Muffins">Muffins</button>
+      <button class="option-button" data-question="art" data-value="Kuchen und Pies">Kuchen & Pies</button>
+      <button class="option-button" data-question="art" data-value="Doughnuts">Doughnuts</button>
+      <button class="option-button" data-question="art" data-value="Kalte Süßspeisen">Kalte Süßspeisen</button>
+      <button class="option-button" data-question="art" data-value="Feine Desserts und Patisserie">Feine Desserts & Patisserie</button>
+      <button class="option-button" data-question="art" data-value="Random">Überrasch mich!</button>
+    </section>
+
+    <!-- Frage 2d: Art Beilage -->
+    <section id="frage-art-beilage" class="frage-section" style="display:none;">
+      <h2>Welche Art von Beilage oder Extras?</h2>
+      <button class="option-button" data-question="art" data-value="Brote und Teigwaren">Brote & Teigwaren</button>
+      <button class="option-button" data-question="art" data-value="Salate">Salate</button>
+      <button class="option-button" data-question="art" data-value="Snacks">Snacks</button>
+      <button class="option-button" data-question="art" data-value="Random">Überrasch mich!</button>
+    </section>
+
+    <!-- Frage 3: Hauptkomponente (nur Hauptgericht) -->
+    <section id="frage-hauptkomponente" class="frage-section" style="display:none;">
+      <h2>Was ist die Hauptkomponente?</h2>
+      <button class="option-button" data-question="hauptkomponente" data-value="Kartoffeln">Kartoffeln</button>
+      <button class="option-button" data-question="hauptkomponente" data-value="Reis">Reis</button>
+      <button class="option-button" data-question="hauptkomponente" data-value="Brot">Brot</button>
+      <button class="option-button" data-question="hauptkomponente" data-value="Nudeln">Nudeln</button>
+      <button class="option-button" data-question="hauptkomponente" data-value="Bohnen">Bohnen</button>
+      <button class="option-button" data-question="hauptkomponente" data-value="Fleisch">Fleisch</button>
+      <button class="option-button" data-question="hauptkomponente" data-value="Gemüse">Gemüse</button>
+      <button class="option-button" data-question="hauptkomponente" data-value="Random">Überrasch mich!</button>
+    </section>
+
+    <!-- Frage 4: Essweise (nur Hauptgericht) -->
+    <section id="frage-essweise" class="frage-section" style="display:none;">
+      <h2>Welche Essweise?</h2>
+      <button class="option-button" data-question="essweise" data-value="vegan">Vegan</button>
+      <button class="option-button" data-question="essweise" data-value="vegetarisch">Vegetarisch</button>
+      <button class="option-button" data-question="essweise" data-value="tierisch">Mit Fleisch</button>
+      <button class="option-button" data-question="essweise" data-value="Random">Überrasch mich!</button>
+    </section>
+
+    <!-- Frage 5: Jahreszeit -->
+    <section id="frage-jahreszeit" class="frage-section" style="display:none;">
+      <h2>Welche Jahreszeit?</h2>
+      <button class="option-button" data-question="jahreszeit" data-value="Frühling">Frühling</button>
+      <button class="option-button" data-question="jahreszeit" data-value="Sommer">Sommer</button>
+      <button class="option-button" data-question="jahreszeit" data-value="Herbst">Herbst</button>
+      <button class="option-button" data-question="jahreszeit" data-value="Winter">Winter</button>
+      <button class="option-button" data-question="jahreszeit" data-value="Random">Überrasch mich!</button>
+    </section>
+
+    <!-- Frage 6: Zeitaufwand -->
+    <section id="frage-zeitaufwand" class="frage-section" style="display:none;">
+      <h2>Wie viel Zeit hast du?</h2>
+      <button class="option-button" data-question="zeitaufwand" data-value="kurz">Kurz</button>
+      <button class="option-button" data-question="zeitaufwand" data-value="mittel">Mittel</button>
+      <button class="option-button" data-question="zeitaufwand" data-value="lang">Lang</button>
+      <button class="option-button" data-question="zeitaufwand" data-value="Random">Überrasch mich!</button>
+    </section>
+
+    <!-- Frage 7: Schwierigkeit -->
+    <section id="frage-schwierigkeit" class="frage-section" style="display:none;">
+      <h2>Welche Schwierigkeit?</h2>
+      <button class="option-button" data-question="schwierigkeit" data-value="leicht">Leicht</button>
+      <button class="option-button" data-question="schwierigkeit" data-value="mittel">Mittel</button>
+      <button class="option-button" data-question="schwierigkeit" data-value="schwer">Schwer</button>
+      <button class="option-button" data-question="schwierigkeit" data-value="Random">Überrasch mich!</button>
+    </section>
+
+    <!-- Frage 8: Ort -->
+    <section id="frage-ort" class="frage-section" style="display:none;">
+      <h2>Wo möchtest du essen?</h2>
+      <button class="option-button" data-question="ort" data-value="Emily und Richard">Emily & Richard</button>
+      <button class="option-button" data-question="ort" data-value="Rory und Lorelai">Rory & Lorelai</button>
+      <button class="option-button" data-question="ort" data-value="Luke's Diner">Luke's Diner</button>
+      <button class="option-button" data-question="ort" data-value="Al's Pancake World">Al's Pancake World</button>
+      <button class="option-button" data-question="ort" data-value="Stars Hollow">Stars Hollow & Umgebung</button>
+      <button class="option-button" data-question="ort" data-value="Random">Überrasch mich!</button>
+    </section>
+
+    <!-- Frage 9: Länderküche (nur Hauptgericht) -->
+    <section id="frage-laenderkueche" class="frage-section" style="display:none;">
+      <h2>Welche Länderküche?</h2>
+      <button class="option-button" data-question="laenderkueche" data-value="Amerikanisch">Amerikanisch</button>
+      <button class="option-button" data-question="laenderkueche" data-value="Asiatisch">Asiatisch</button>
+      <button class="option-button" data-question="laenderkueche" data-value="Chinesisch">Chinesisch</button>
+      <button class="option-button" data-question="laenderkueche" data-value="Marrokanisch">Marrokanisch</button>
+      <button class="option-button" data-question="laenderkueche" data-value="Japanisch">Japanisch</button>
+      <button class="option-button" data-question="laenderkueche" data-value="Balinesisch">Balinesisch</button>
+      <button class="option-button" data-question="laenderkueche" data-value="Singaporisch">Singaporisch</button>
+      <button class="option-button" data-question="laenderkueche" data-value="Deutsch">Deutsch</button>
+      <button class="option-button" data-question="laenderkueche" data-value="Französisch">Französisch</button>
+      <button class="option-button" data-question="laenderkueche" data-value="Italienisch">Italienisch</button>
+      <button class="option-button" data-question="laenderkueche" data-value="Mexikanisch">Mexikanisch</button>
+      <button class="option-button" data-question="laenderkueche" data-value="Britisch">Britisch</button>
+      <button class="option-button" data-question="laenderkueche" data-value="Südafrikanisch">Südafrikanisch</button>
+      <button class="option-button" data-question="laenderkueche" data-value="Spanisch">Spanisch</button>
+      <button class="option-button" data-question="laenderkueche" data-value="Random">Überrasch mich!</button>
+    </section>
+  </div>
+
+  <!-- Ergebnis-Bereich -->
+  <div id="ergebnis" style="display:none;">
+    <h2>Dein Rezept:</h2>
+    <p id="rezept-name"></p>
+    <p id="rezept-seite">(Seite im Buch folgt später)</p>
+    <button id="neustart-button">Nochmal spielen</button>
+  </div>
+  
+    <script src="script.js"></script>
+</body>
+</html>

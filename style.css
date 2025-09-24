@@ -1,0 +1,359 @@
+/* ========================
+   GLOBAL
+======================== */
+body {
+  margin: 0;
+  font-family: 'Georgia', 'Palatino Linotype', serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #f5f0e1;
+  background-image: repeating-linear-gradient(
+    135deg,
+    rgba(221, 190, 110, 0.2),
+    rgba(221, 190, 110, 0.2) 15px,
+    rgba(219, 169, 41, 0.2) 15px,
+    rgba(219, 169, 41, 0.2) 30px
+  );
+  padding-top: 40px;
+}
+
+/* ========================
+   SCREENS
+======================== */
+#start-screen,
+#quiz,
+#ergebnis {
+  width: 90%;
+  max-width: 500px;
+  padding: 25px;
+  box-sizing: border-box;
+  display: block;
+  margin: 20px auto;
+  border-radius: 15px;
+  background-color: rgba(255, 245, 230, 0.95);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* ========================
+   HEADINGS
+======================== */
+h1 {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  color: #b5522d;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 0 #fff5e6;
+}
+
+h2 {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  color: #9b3e1c;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 0 #fff5e6;
+}
+
+/* ========================
+   OPTION BUTTONS
+======================== */
+.option-button {
+  padding: 12px 20px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.15);
+  position: relative;
+  color: #4a2e0f;
+}
+
+/* Hover-Effekt */
+.option-button:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 6px 10px rgba(0,0,0,0.25);
+}
+
+/* ========================
+   BUTTON SYMBOLS UND PASTELLFARBEN
+======================== */
+
+/* ---------- Frage 1: Gang ---------- */
+#frage-gang .option-button[data-value="Frühstück"]::before { content: '🥞'; }
+#frage-gang .option-button[data-value="Hauptgericht"]::before { content: '🍲'; }
+#frage-gang .option-button[data-value="Dessert"]::before { content: '🍰'; }
+#frage-gang .option-button[data-value="Beilage"]::before { content: '🥗'; }
+#frage-gang .option-button[data-value="Random"]::before { content: '🎁'; }
+
+#frage-gang .option-button[data-value="Frühstück"] { background-color: #fff2b2; }
+#frage-gang .option-button[data-value="Hauptgericht"] { background-color: #ffd8a8; }
+#frage-gang .option-button[data-value="Dessert"] { background-color: #ffc0cb; }
+#frage-gang .option-button[data-value="Beilage"] { background-color: #b2ffb2; }
+#frage-gang .option-button[data-value="Random"] { background-color: #e0ffff; }
+
+/* ---------- Frage 2a: Art Frühstück ---------- */
+#frage-art-frühstück .option-button[data-value="Pancakes"]::before { content: '🥞'; }
+#frage-art-frühstück .option-button[data-value="Backwaren"]::before { content: '🥐'; }
+#frage-art-frühstück .option-button[data-value="Random"]::before { content: '🎁'; }
+
+#frage-art-frühstück .option-button[data-value="Pancakes"] { background-color: #fff8b2; }
+#frage-art-frühstück .option-button[data-value="Backwaren"] { background-color: #ffd1b2; }
+#frage-art-frühstück .option-button[data-value="Random"] { background-color: #e0ffff; }
+
+/* ---------- Frage 2b: Art Hauptgericht ---------- */
+#frage-art-hauptgericht .option-button[data-value="Fine Dining"]::before { content: '🍽️'; }
+#frage-art-hauptgericht .option-button[data-value="Fast Food"]::before { content: '🍔'; }
+#frage-art-hauptgericht .option-button[data-value="Street Food"]::before { content: '🌮'; }
+#frage-art-hauptgericht .option-button[data-value="Comfort Food"]::before { content: '🥘'; }
+#frage-art-hauptgericht .option-button[data-value="Schmorgericht"]::before { content: '🍲'; }
+#frage-art-hauptgericht .option-button[data-value="Curry"]::before { content: '🍛'; }
+#frage-art-hauptgericht .option-button[data-value="Getreidegericht"]::before { content: '🥗'; }
+#frage-art-hauptgericht .option-button[data-value="Sandwich"]::before { content: '🥪'; }
+#frage-art-hauptgericht .option-button[data-value="Suppe"]::before { content: '🍜'; }
+#frage-art-hauptgericht .option-button[data-value="Kleinigkeit"]::before { content: '🥯'; }
+#frage-art-hauptgericht .option-button[data-value="Pastete"]::before { content: '🥧'; }
+#frage-art-hauptgericht .option-button[data-value="Nudeln"]::before { content: '🍝'; }
+#frage-art-hauptgericht .option-button[data-value="Random"]::before { content: '🎁'; }
+
+#frage-art-hauptgericht .option-button[data-value="Fine Dining"] { background-color: #ffb3b3; }
+#frage-art-hauptgericht .option-button[data-value="Fast Food"] { background-color: #ffd8a8; }
+#frage-art-hauptgericht .option-button[data-value="Street Food"] { background-color: #fff7a8; }
+#frage-art-hauptgericht .option-button[data-value="Comfort Food"] { background-color: #b2ffb2; }
+#frage-art-hauptgericht .option-button[data-value="Schmorgericht"] { background-color: #b2e0ff; }
+#frage-art-hauptgericht .option-button[data-value="Curry"] { background-color: #ffb2ff; }
+#frage-art-hauptgericht .option-button[data-value="Getreidegericht"] { background-color: #f0e68c; }
+#frage-art-hauptgericht .option-button[data-value="Sandwich"] { background-color: #ffdab9; }
+#frage-art-hauptgericht .option-button[data-value="Suppe"] { background-color: #d8bfd8; }
+#frage-art-hauptgericht .option-button[data-value="Kleinigkeit"] { background-color: #ffe4e1; }
+#frage-art-hauptgericht .option-button[data-value="Pastete"] { background-color: #fafad2; }
+#frage-art-hauptgericht .option-button[data-value="Nudeln"] { background-color: #e0ffff; }
+
+/* ---------- Frage 2c: Art Dessert ---------- */
+#frage-art-dessert .option-button[data-value="Kekse"]::before { content: '🍪'; }
+#frage-art-dessert .option-button[data-value="Muffins"]::before { content: '🧁'; }
+#frage-art-dessert .option-button[data-value="Kuchen und Pies"]::before { content: '🥧'; }
+#frage-art-dessert .option-button[data-value="Doughnuts"]::before { content: '🍩'; }
+#frage-art-dessert .option-button[data-value="Kalte Süßspeisen"]::before { content: '🍨'; }
+#frage-art-dessert .option-button[data-value="Feine Desserts und Patisserie"]::before { content: '🍰'; }
+#frage-art-dessert .option-button[data-value="Random"]::before { content: '🎁'; }
+
+#frage-art-dessert .option-button[data-value="Kekse"] { background-color: #fff5b2; }
+#frage-art-dessert .option-button[data-value="Muffins"] { background-color: #ffdab2; }
+#frage-art-dessert .option-button[data-value="Kuchen und Pies"] { background-color: #ffc0cb; }
+#frage-art-dessert .option-button[data-value="Doughnuts"] { background-color: #e0bfff; }
+#frage-art-dessert .option-button[data-value="Kalte Süßspeisen"] { background-color: #b2ffff; }
+#frage-art-dessert .option-button[data-value="Feine Desserts und Patisserie"] { background-color: #ffe4e1; }
+#frage-art-dessert .option-button[data-value="Random"] { background-color: #e0ffff; }
+
+/* ---------- Frage 2d: Art Beilage ---------- */
+#frage-art-beilage .option-button[data-value="Brote und Teigwaren"]::before { content: '🥖'; }
+#frage-art-beilage .option-button[data-value="Salate"]::before { content: '🥗'; }
+#frage-art-beilage .option-button[data-value="Snacks"]::before { content: '🍿'; }
+#frage-art-beilage .option-button[data-value="Random"]::before { content: '🎁'; }
+
+#frage-art-beilage .option-button[data-value="Brote und Teigwaren"] { background-color: #fff5b2; }
+#frage-art-beilage .option-button[data-value="Salate"] { background-color: #b2ffb2; }
+#frage-art-beilage .option-button[data-value="Snacks"] { background-color: #ffd8a8; }
+#frage-art-beilage .option-button[data-value="Random"] { background-color: #e0ffff; }
+
+/* ---------- Frage 3: Hauptkomponente ---------- */
+#frage-hauptkomponente .option-button[data-value="Kartoffeln"]::before { content: '🥔'; }
+#frage-hauptkomponente .option-button[data-value="Reis"]::before { content: '🍚'; }
+#frage-hauptkomponente .option-button[data-value="Brot"]::before { content: '🍞'; }
+#frage-hauptkomponente .option-button[data-value="Nudeln"]::before { content: '🍝'; }
+#frage-hauptkomponente .option-button[data-value="Bohnen"]::before { content: '🫘'; }
+#frage-hauptkomponente .option-button[data-value="Fleisch"]::before { content: '🥩'; }
+#frage-hauptkomponente .option-button[data-value="Gemüse"]::before { content: '🥦'; }
+#frage-hauptkomponente .option-button[data-value="Random"]::before { content: '🎁'; }
+
+#frage-hauptkomponente .option-button[data-value="Kartoffeln"] { background-color: #fff5b2; }
+#frage-hauptkomponente .option-button[data-value="Reis"] { background-color: #ffd8a8; }
+#frage-hauptkomponente .option-button[data-value="Brot"] { background-color: #ffe4b5; }
+#frage-hauptkomponente .option-button[data-value="Nudeln"] { background-color: #e0ffff; }
+#frage-hauptkomponente .option-button[data-value="Bohnen"] { background-color: #b2ffb2; }
+#frage-hauptkomponente .option-button[data-value="Fleisch"] { background-color: #ffb2b2; }
+#frage-hauptkomponente .option-button[data-value="Gemüse"] { background-color: #d8ffd8; }
+#frage-hauptkomponente .option-button[data-value="Random"] { background-color: #e0ffff; }
+
+/* ---------- Frage 4: Essweise ---------- */
+#frage-essweise .option-button[data-value="vegan"]::before { content: '🌱'; }
+#frage-essweise .option-button[data-value="vegetarisch"]::before { content: '🥕'; }
+#frage-essweise .option-button[data-value="tierisch"]::before { content: '🥩'; }
+#frage-essweise .option-button[data-value="Random"]::before { content: '🎁'; }
+
+#frage-essweise .option-button[data-value="vegan"] { background-color: #b2ffb2; }
+#frage-essweise .option-button[data-value="vegetarisch"] { background-color: #ffd8a8; }
+#frage-essweise .option-button[data-value="tierisch"] { background-color: #ffb2b2; }
+#frage-essweise .option-button[data-value="Random"] { background-color: #e0ffff; }
+
+/* ---------- Frage 5: Jahreszeit ---------- */
+#frage-jahreszeit .option-button[data-value="Frühling"]::before { content: '🌸'; }
+#frage-jahreszeit .option-button[data-value="Sommer"]::before { content: '☀️'; }
+#frage-jahreszeit .option-button[data-value="Herbst"]::before { content: '🍁'; }
+#frage-jahreszeit .option-button[data-value="Winter"]::before { content: '❄️'; }
+#frage-jahreszeit .option-button[data-value="Random"]::before { content: '🎁'; }
+
+#frage-jahreszeit .option-button[data-value="Frühling"] { background-color: #e0ffe0; }
+#frage-jahreszeit .option-button[data-value="Sommer"] { background-color: #fff0b2; }
+#frage-jahreszeit .option-button[data-value="Herbst"] { background-color: #ffd8a8; }
+#frage-jahreszeit .option-button[data-value="Winter"] { background-color: #b2d8ff; }
+#frage-jahreszeit .option-button[data-value="Random"] { background-color: #e0ffff; }
+
+/* ---------- Frage 6: Zeitaufwand ---------- */
+#frage-zeitaufwand .option-button[data-value="kurz"]::before { content: '⏱️'; }
+#frage-zeitaufwand .option-button[data-value="mittel"]::before { content: '🕰️'; }
+#frage-zeitaufwand .option-button[data-value="lang"]::before { content: '⌛'; }
+#frage-zeitaufwand .option-button[data-value="Random"]::before { content: '🎁'; }
+
+#frage-zeitaufwand .option-button[data-value="kurz"] { background-color: #fff0b2; }
+#frage-zeitaufwand .option-button[data-value="mittel"] { background-color: #ffd8a8; }
+#frage-zeitaufwand .option-button[data-value="lang"] { background-color: #b2e0ff; }
+#frage-zeitaufwand .option-button[data-value="Random"] { background-color: #e0ffff; }
+
+/* ---------- Frage 7: Schwierigkeit ---------- */
+#frage-schwierigkeit .option-button[data-value="leicht"]::before { content: '🟢'; }
+#frage-schwierigkeit .option-button[data-value="mittel"]::before { content: '🟡'; }
+#frage-schwierigkeit .option-button[data-value="schwer"]::before { content: '🔴'; }
+#frage-schwierigkeit .option-button[data-value="Random"]::before { content: '🎁'; }
+
+#frage-schwierigkeit .option-button[data-value="leicht"] { background-color: #b2ffb2; }
+#frage-schwierigkeit .option-button[data-value="mittel"] { background-color: #fff0b2; }
+#frage-schwierigkeit .option-button[data-value="schwer"] { background-color: #ffb2b2; }
+#frage-schwierigkeit .option-button[data-value="Random"] { background-color: #e0ffff; }
+
+/* ---------- Frage 8: Ort ---------- */
+#frage-ort .option-button[data-value="Emily und Richard"]::before { content: '🏡'; }
+#frage-ort .option-button[data-value="Rory und Lorelai"]::before { content: '🍕'; }
+#frage-ort .option-button[data-value="Luke's Diner"]::before { content: '🍟'; }
+#frage-ort .option-button[data-value="Al's Pancake World"]::before { content: '🥞'; }
+#frage-ort .option-button[data-value="Stars Hollow"]::before { content: '🌳'; }
+#frage-ort .option-button[data-value="Random"]::before { content: '🎁'; }
+
+#frage-ort .option-button[data-value="Emily und Richard"] { background-color: #ffe4b5; }
+#frage-ort .option-button[data-value="Rory und Lorelai"] { background-color: #ffd8a8; }
+#frage-ort .option-button[data-value="Luke's Diner"] { background-color: #fff0b2; }
+#frage-ort .option-button[data-value="Al's Pancake World"] { background-color: #ffe4e1; }
+#frage-ort .option-button[data-value="Stars Hollow"] { background-color: #b2ffd8; }
+#frage-ort .option-button[data-value="Random"] { background-color: #e0ffff; }
+
+/* ---------- Frage 9: Länderküche ---------- */
+#frage-laenderkueche .option-button[data-value="Italienisch"]::before { content: '🇮🇹'; }
+#frage-laenderkueche .option-button[data-value="Französisch"]::before { content: '🇫🇷'; }
+#frage-laenderkueche .option-button[data-value="Amerikanisch"]::before { content: '🇺🇸'; }
+#frage-laenderkueche .option-button[data-value="Asiatisch"]::before { content: '🌏'; }
+#frage-laenderkueche .option-button[data-value="Chinesisch"]::before { content: '🇨🇳'; }
+#frage-laenderkueche .option-button[data-value="Marrokanisch"]::before { content: '🇲🇦'; }
+#frage-laenderkueche .option-button[data-value="Japanisch"]::before { content: '🇯🇵'; }
+#frage-laenderkueche .option-button[data-value="Balinesisch"]::before { content: '🇮🇩'; }
+#frage-laenderkueche .option-button[data-value="Singaporisch"]::before { content: '🇸🇬'; }
+#frage-laenderkueche .option-button[data-value="Deutsch"]::before { content: '🇩🇪'; }
+#frage-laenderkueche .option-button[data-value="Mexikanisch"]::before { content: '🇲🇽'; }
+#frage-laenderkueche .option-button[data-value="Britisch"]::before { content: '🇬🇧'; }
+#frage-laenderkueche .option-button[data-value="Südafrikanisch"]::before { content: '🇿🇦'; }
+#frage-laenderkueche .option-button[data-value="Spanisch"]::before { content: '🇪🇸'; }
+#frage-laenderkueche .option-button[data-value="Random"]::before { content: '🎁'; }
+
+
+#frage-laenderkueche .option-button[data-value="Italienisch"] { background-color: #e49c8a; }
+#frage-laenderkueche .option-button[data-value="Französisch"] { background-color: #88afcf; }
+#frage-laenderkueche .option-button[data-value="Amerikanisch"] { background-color: #fff0b2; }
+#frage-laenderkueche .option-button[data-value="Asiatisch"] { background-color: #dd92e4; }
+#frage-laenderkueche .option-button[data-value="Chinesisch"] { background-color: #ecd484; }
+#frage-laenderkueche .option-button[data-value="Marrokanisch"] { background-color: #70aa55; }
+#frage-laenderkueche .option-button[data-value="Japanisch"] { background-color: #b3543c; }
+#frage-laenderkueche .option-button[data-value="Balinesisch"] { background-color: #c3a0fc; }
+#frage-laenderkueche .option-button[data-value="Singaporisch"] { background-color: #dfec94; }
+#frage-laenderkueche .option-button[data-value="Deutsch"] { background-color: #f3e27f; }
+#frage-laenderkueche .option-button[data-value="Mexikanisch"] { background-color: #f0b45b; }
+#frage-laenderkueche .option-button[data-value="Britisch"] { background-color: #f38deb; }
+#frage-laenderkueche .option-button[data-value="Südafrikanisch"] { background-color: #f071a6; }
+#frage-laenderkueche .option-button[data-value="Spanisch"] { background-color: #b2ffd8; }
+#frage-laenderkueche .option-button[data-value="Random"] { background-color: #e0ffff; }
+
+/* ========================
+   RESULT
+======================== */
+#rezept-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #7b2f15;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 0 #fff5e6;
+}
+
+#rezept-seite {
+  font-size: 1em;
+  color: #4a2e0f;
+  margin-top: 0;
+}
+
+/* ========================
+   START & RESTART BUTTONS
+======================== */
+#start-button,
+#neustart-button {
+  padding: 14px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  background-color: #f6c177;
+  color: #4a2e0f;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+}
+
+#start-button:hover,
+#neustart-button:hover {
+  background-color: #f0b05d;
+  transform: scale(1.08);
+  box-shadow: 2px 6px 12px rgba(0,0,0,0.25);
+}
+
+/* ========================
+   MOBILE OPTIMIZATION
+======================== */
+@media (max-width: 500px) {
+  h1 { font-size: 1.5em; }
+  h2 { font-size: 1.2em; }
+  .option-button,
+  #start-button,
+  #neustart-button { font-size: 14px; padding: 12px 18px; }
+  #start-screen,
+  #quiz,
+  #ergebnis { width: 95%; padding: 20px; }
+}
+
+/* ========================
+   EXTRA STARS HOLLOW VIBES
+======================== */
+body::after {
+  content: '⭐';
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-size: 1.2em;
+  opacity: 0.3;
+}
+
+.frage-section::before {
+  content: '☕';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.2em;
+  opacity: 0.4;
+}
