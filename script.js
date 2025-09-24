@@ -204,16 +204,33 @@ function matchesUserSelection(recipe, selections) {
 }
 
 // Zufällige gültige Optionen für „Überrasch mich“
+// Zufällige gültige Optionen für „Überrasch mich“
+// Nutzt die streng-aber-fallback-sichere matchesUserSelection
 function getValidRandomOptions(question) {
   const candidates = new Set();
 
-  allRecipes.forEach(recipe => {
-    if (matchesUserSelection(recipe, userSelections)) {
-      const values = normalizeToArray(recipe[capitalizeKey(question)]);
-      values.forEach(v => candidates.add(v));
-    }
+  // Erstmal alle Rezepte filtern, die nach bisherigen Antworten passen
+  let validRecipes = allRecipes.filter(r => matchesUserSelection(r, userSelections));
+
+  // Fallback: falls kein Rezept übrig bleibt, lockere alle außer Gang + Art
+  if (validRecipes.length === 0) {
+    validRecipes = allRecipes.filter(r => {
+      const minimalCriteria = ["gang", "art"];
+      return minimalCriteria.every(key => {
+        const userValue = userSelections[key];
+        if (!userValue) return true;
+        const recipeValue = normalizeToArray(r[capitalizeKey(key)]);
+        const userArray = normalizeToArray(userValue);
+        return userArray.every(val => recipeValue.includes(val));
+      });
+    });
+  }
+
+  // Aus dem validen Rezept-Pool die Werte für die aktuelle Frage sammeln
+  validRecipes.forEach(recipe => {
+    const values = normalizeToArray(recipe[capitalizeKey(question)]);
+    values.forEach(v => candidates.add(v));
   });
 
   return Array.from(candidates);
 }
-
