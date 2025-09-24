@@ -1,4 +1,6 @@
+// ========================
 // Globale Variablen
+// ========================
 let currentStepIndex = 0;
 let userSelections = {};
 let allRecipes = [];
@@ -26,7 +28,9 @@ const restartButton = document.getElementById("neustart-button");
 const rezeptName = document.getElementById("rezept-name");
 const rezeptSeite = document.getElementById("rezept-seite");
 
+// ========================
 // JSON laden
+// ========================
 fetch("Rezepte.json")
   .then(res => res.json())
   .then(data => {
@@ -35,7 +39,9 @@ fetch("Rezepte.json")
   })
   .catch(err => console.error("Fehler beim Laden der Rezepte:", err));
 
+// ========================
 // Quiz starten
+// ========================
 startButton.addEventListener("click", () => {
   startScreen.style.display = "none";
   quizScreen.style.display = "block";
@@ -43,14 +49,18 @@ startButton.addEventListener("click", () => {
   showStep(steps[currentStepIndex]);
 });
 
+// ========================
 // Neustart
+// ========================
 restartButton.addEventListener("click", () => {
   resultScreen.style.display = "none";
   startScreen.style.display = "block";
   userSelections = {};
 });
 
+// ========================
 // Klicks auf Option-Buttons
+// ========================
 document.querySelectorAll(".option-button").forEach(button => {
   button.addEventListener("click", () => {
     const question = button.dataset.question;
@@ -71,7 +81,9 @@ document.querySelectorAll(".option-button").forEach(button => {
   });
 });
 
+// ========================
 // Nächste Frage bestimmen
+// ========================
 function nextStep(lastQuestion) {
   document.getElementById(steps[currentStepIndex]).style.display = "none";
 
@@ -99,14 +111,18 @@ function nextStep(lastQuestion) {
   else showStep(steps[currentStepIndex]);
 }
 
+// ========================
 // Frage anzeigen
+// ========================
 function showStep(stepId) {
   document.querySelectorAll(".frage-section").forEach(sec => sec.style.display = "none");
   const section = document.getElementById(stepId);
   if (section) section.style.display = "block";
 }
 
+// ========================
 // Endergebnis berechnen
+// ========================
 function showResult() {
   quizScreen.style.display = "none";
   resultScreen.style.display = "block";
@@ -126,7 +142,9 @@ function showResult() {
   rezeptSeite.textContent = chosen.Seite ? "Seite " + chosen.Seite : "(Seite im Buch folgt später)";
 }
 
+// ========================
 // Hilfsfunktion: Key korrekt großschreiben
+// ========================
 function capitalizeKey(str) {
   const mapping = {
     "gang": "Gang",
@@ -142,7 +160,9 @@ function capitalizeKey(str) {
   return mapping[str] || str;
 }
 
+// ========================
 // Prüfen, ob Rezept zu bisherigen Antworten passt
+// ========================
 function matchesUserSelection(recipe, selections) {
   for (let key in selections) {
     const userValue = selections[key];
@@ -160,7 +180,9 @@ function matchesUserSelection(recipe, selections) {
   return true;
 }
 
+// ========================
 // Zufällige gültige Optionen für „Überrasch mich“
+// ========================
 function getValidRandomOptions(question) {
   const candidates = new Set();
 
