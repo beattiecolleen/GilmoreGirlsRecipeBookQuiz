@@ -154,26 +154,54 @@ function normalizeToArray(value) {
 
 
 // Prüfen, ob Rezept zu bisherigen Antworten passt
+// Prüfen, ob Rezept zu bisherigen Antworten passt, streng aber fallback-sicher
 function matchesUserSelection(recipe, selections) {
+  let filteredOut = false;
+
   for (let key in selections) {
     let userValue = selections[key];
     if (!userValue || userValue === "Random") continue;
 
     const recipeValue = recipe[capitalizeKey(key)];
-    if (!recipeValue) return false;
+    if (!recipeValue) {
+      filteredOut = true; // Schlüssel existiert nicht → potenziell raus
+      continue;
+    }
 
-    // Arrays für Vergleich normalisieren
-    const recipeArray = Array.isArray(recipeValue) ? recipeValue : [recipeValue];
-    const userArray = Array.isArray(userValue) ? userValue : [userValue];
+    const recipeArray = normalizeToArray(recipeValue);
+    const userArray = normalizeToArray(userValue);
 
-    // Prüfen, ob mindestens ein User-Wert im Rezept vorkommt
-    const match = userArray.some(val => recipeArray.includes(val));
-    if (!match) return false;
+    // Exakte Übereinstimmung prüfen
+    const match = userArray.every(val => recipeArray.includes(val));
+    if (!match) filteredOut = true;
   }
+
+  // Fallback: Wenn alles gefiltert würde, ignoriere nur die letzten Kriterien (nicht Gang/Art)
+  if (filteredOut) {
+    const minimalCriteria = ["gang", "art"]; // diese werden immer strikt geprüft
+    let minimalMatch = true;
+
+    for (let key of minimalCriteria) {
+      const userValue = selections[key];
+      if (!userValue) continue;
+      const recipeValue = recipe[capitalizeKey(key)];
+      if (!recipeValue) {
+        minimalMatch = false;
+        break;
+      }
+      const recipeArray = normalizeToArray(recipeValue);
+      const userArray = normalizeToArray(userValue);
+      if (!userArray.every(val => recipeArray.includes(val))) {
+        minimalMatch = false;
+        break;
+      }
+    }
+
+    return minimalMatch; // mindestens Gang + Art müssen passen
+  }
+
   return true;
 }
-
-
 
 // Zufällige gültige Optionen für „Überrasch mich“
 function getValidRandomOptions(question) {
