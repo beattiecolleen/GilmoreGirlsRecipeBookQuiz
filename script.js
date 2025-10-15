@@ -123,7 +123,7 @@ function showResult() {
 
   const chosen = filtered[Math.floor(Math.random() * filtered.length)];
   rezeptName.textContent = chosen.Name || "Unbekanntes Rezept";
-  rezeptSeite.textContent = chosen.Seite ? "Seite " + chosen.Seite : "(Seite im Buch folgt später)";
+  rezeptSeite.textContent = chosen.Seite ? "Seite" + chosen.Seite : "(Seite im Buch folgt später)";
 }
 
 // Hilfsfunktion: Key korrekt großschreiben
@@ -137,7 +137,8 @@ function capitalizeKey(str) {
     "zeitaufwand": "Zeitaufwand",
     "schwierigkeit": "Schwierigkeitsgrad",
     "ort": "Ort",
-    "laenderkueche": "Länderküche"
+    "laenderkueche": "Länderküche",
+    "seite": "Seite"
   };
   return mapping[str] || str;
 }
