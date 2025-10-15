@@ -7,7 +7,8 @@
         "Zeitaufwand" : "Kurz",
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" : "Luke's Diner",
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 9
     },
     {
         "Name" : "Blaubeerpancakes",
@@ -17,7 +18,8 @@
         "Zeitaufwand" : "Kurz",
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Luke's Diner",
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 9
     },
     {
         "Name" : "Kürbis Pancakes mit Zimt-Butter",
@@ -27,7 +29,8 @@
         "Zeitaufwand" : "Kurz",
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Luke's Diner",
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 10
     },
     {
         "Name" : "Scones",
@@ -37,7 +40,8 @@
         "Zeitaufwand" : "Mittel",
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  ["Stars Hollow und Umgebung", "Emily"],
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 12
     },
     {
         "Name" : "Crossaints",
@@ -47,7 +51,8 @@
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" :  ["Emily", "Stars Hollow und Umgebung"],
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 12
     },
     {
         "Name" : "Weston's Bagels",
@@ -59,7 +64,8 @@
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" :  ["Luke's Diner", "Stars Hollow und Umgebung"],
         "Länderküche" : "Amerikanisch",
-        "Essweise" : ["vegetarisch", "vegan"]
+        "Essweise" : ["vegetarisch", "vegan"],
+        "Seite" : 13
     },
     {
         "Name" : "Potage au Cresson (Kressesuppe)",
@@ -71,7 +77,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" : "Emily" ,
         "Länderküche" : "Französisch" ,
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 15
     },
     {
         "Name" : "Fenchel-Kartoffel-Suppe mit Chili",
@@ -82,7 +89,8 @@
         "Zeitaufwand" : "Kurz",
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Emily",
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 15
     },
     {
         "Name" : "Artischockensuppe",
@@ -92,8 +100,9 @@
         "Jahreszeit" : ["Herbst", "Sommer", "Winter"],
         "Zeitaufwand" : "Kurz",
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  "Emily",
-        "Essweise" : "vegetarisch"
+        "Ort" :  ["Emily", "Luke's Diner"]
+        "Essweise" : "vegetarisch",
+        "Seite" : 22
     },
     {
         "Name" : "Gefüllte Tomaten mit Ziegenkäse und Semmelbröseln",
@@ -103,8 +112,9 @@
         "Jahreszeit" : ["Sommer", "Herbst", "Frühling"],
         "Zeitaufwand" : "Kurz",
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  "Emily",
-        "Essweise" : "vegetarisch"
+        "Ort" :  ["Emily", "Luke's Diner"]
+        "Essweise" : "vegetarisch",
+        "Seite" : 23
     },
     {
         "Name" : "Penne mit hausgemachtem Pesto",
@@ -116,7 +126,8 @@
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" :  ["Emily", "Stars Hollow und Umgebung"],
         "Länderküche" : "Italienisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 16
     },
     {
         "Name" : "Cassoulet",
@@ -128,7 +139,8 @@
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" :  ["Emily", "Al's Pancake World"],
         "Länderküche" : "Französisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 17
     },
     {
         "Name" : "Bourbon-gebeizte Schweinekoteletts",
@@ -140,7 +152,8 @@
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" :  "Emily",
         "Länderküche" : "Amerikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 18
     },
     {
         "Name" : "Lammkoteletts",
@@ -150,8 +163,9 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Mittel",
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  "Emily",
-        "Essweise" : "tierisch"
+        "Ort" :  ["Emily", "Luke's Diner"]
+        "Essweise" : "tierisch",
+        "Seite" : 24
     },
     {
         "Name" : "Santa Burger",
@@ -163,7 +177,8 @@
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" :  "Luke's Diner",
         "Länderküche" : "Amerikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 20
     },
     {
         "Name" : "Cheeseburger",
@@ -175,7 +190,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Luke's Diner",
         "Länderküche" : "Amerikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 21
     },
     {
         "Name" : "Yale Special",
@@ -187,7 +203,8 @@
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" :  "Luke's Diner",
         "Länderküche" : "Amerikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 21
     },
     {
         "Name" : "Caesar's Nachos",
@@ -199,7 +216,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" : "Luke's Diner",
         "Länderküche" : ["Mexikanisch", "Amerikanisch"],
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 22
     },
     {
         "Name" : "Chinesische Gebratene Nudeln mit Hähnchen",
@@ -211,7 +229,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  ["Al's Pancake World", "Stars Hollow und Umgebung"],
         "Länderküche" : ["Chinesisch", "Asiatisch"],
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 25
     },
     {
         "Name" : "Kung Pao Hähnchen und Egg Rolls",
@@ -223,7 +242,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Al's Pancake World",
         "Länderküche" : ["Chinesisch", "Asiatisch"],
-        "Essweise" : ["tierisch", "vegetarisch", "vegan"]
+        "Essweise" : ["tierisch", "vegetarisch", "vegan"],
+        "Seite" : 25
     },
     {
         "Name" : "Veganes Couscous mit Gemüse",
@@ -235,7 +255,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Al's Pancake World",
         "Länderküche" : "Marrokanisch",
-        "Essweise" : ["vegan", "vegetarisch"]
+        "Essweise" : ["vegan", "vegetarisch"],
+        "Seite" : 27
     },
     {
         "Name" : "Lamm Tajine",
@@ -247,7 +268,8 @@
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" :  "Al's Pancake World",
         "Länderküche" : "Marrokanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 27
     },
     {
         "Name" : "Pastilla mit Huhn",
@@ -259,7 +281,8 @@
         "Schwierigkeitsgrad" : "Schwer",
         "Ort" : "Emily" ,
         "Länderküche" : "Marrokanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 27
     },
     {
         "Name" : "Vegetarisches Pad Thai",
@@ -271,7 +294,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Al's Pancake World",
         "Länderküche" : "Asiatisch",
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 28
     },
     {
         "Name" : "Chicken Teriyaki",
@@ -283,7 +307,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Al's Pancake World",
         "Länderküche" : "Asiatisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 28
     },
     {
         "Name" : "Vegane Dim Sum",
@@ -295,7 +320,8 @@
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" :  "Al's Pancake World",
         "Länderküche" : "Asiatisch",
-        "Essweise" : ["vegan", "vegetarisch"]
+        "Essweise" : ["vegan", "vegetarisch"],
+        "Seite" : 29
     },
     {
         "Name" : "Butter Chicken",
@@ -307,7 +333,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" :  ["Al's Pancake World", "Stars Hollow und Umgebung"],
         "Länderküche" : ["Britisch", "Indisch"],
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 29
     },
     {
         "Name" : "Fish and Chips",
@@ -319,7 +346,8 @@
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" :  "Al's Pancake World",
         "Länderküche" : "Britisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 30
     },
     {
         "Name" : "Vegetable Pie",
@@ -331,7 +359,8 @@
         "Schwierigkeitsgrad" : ["Mittel", "Schwer"],
         "Ort" :  ["Al's Pancake World","Emily"],
         "Länderküche" : "Britisch",
-        "Essweise" : ["vegetarisch", "vegan"]
+        "Essweise" : ["vegetarisch", "vegan"],
+        "Seite" : 30
     },
     {
         "Name" : "Bobotie",
@@ -343,7 +372,8 @@
         "Schwierigkeitsgrad" : ["Mittel", "Schwer"],
         "Ort" :  "Al's Pancake World",
         "Länderküche" : "Südafrikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 30
     },
     {
         "Name" : "Bunny Chow",
@@ -355,7 +385,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"] ,
         "Ort" : "Al's Pancake World",
         "Länderküche" : "Südafrikanisch",
-        "Essweise" : ["tierisch", "vegetarisch", "vegan"]
+        "Essweise" : ["tierisch", "vegetarisch", "vegan"],
+        "Seite" : 31
     },
     {
         "Name" : "Veganes Chakalaka",
@@ -367,7 +398,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Al's Pancake World",
         "Länderküche" : "Südafrikanisch",
-        "Essweise" : ["vegan", "vegetarisch"]
+        "Essweise" : ["vegan", "vegetarisch"],
+        "Seite" : 31
     },
     {
         "Name" : "Hähnchen süß-sauer",
@@ -379,7 +411,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" : "Al's Pancake World",
         "Länderküche" : ["Chinesisch", "Asiatisch"],
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 32
     },
     {
         "Name" : "Vegetarischer gebratener Reis",
@@ -391,7 +424,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Al's Pancake World",
         "Länderküche" : ["Chinesisch", "Asiatisch"],
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 32
     },
     {
         "Name" : "Veganes Mapo Tofu",
@@ -403,7 +437,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" : "Al's Pancake World" ,
         "Länderküche" : ["Chinesisch", "Asiatisch"],
-        "Essweise" : ["vegan", "vegetarisch"]
+        "Essweise" : ["vegan", "vegetarisch"],
+        "Seite" : 33
     },
     {
         "Name" : "Pollo con Mole",
@@ -415,7 +450,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" :  "Al's Pancake World",
         "Länderküche" : "Mexikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 33
     },
     {
         "Name" : "Vegetarischer Burrito mit Bohnen",
@@ -427,7 +463,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Al's Pancake World",
         "Länderküche" : "Mexikanisch",
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 34
     },
     {
         "Name" : "Tacos Carnitas",
@@ -439,7 +476,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" :  "Al's Pancake World",
         "Länderküche" : "Mexikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 35
     },
     {
         "Name" : "Hähnchen Piccata",
@@ -451,7 +489,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" :  ["Al's Pancake World", "Emily"],
         "Länderküche" : "Italienisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 36
     },
     {
         "Name" : "Risotto ai Funghi",
@@ -463,7 +502,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" :  ["Al's Pancake World","Emily"],
         "Länderküche" : "Italienisch",
-        "Essweise" : ["tierisch", "vegetarisch"]
+        "Essweise" : ["tierisch", "vegetarisch"],
+        "Seite" : 36
     },
     {
         "Name" : "Pizza Margherita",
@@ -475,7 +515,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" :  ["Al's Pancake World",  "Stars Hollow und Umgebung"],
         "Länderküche" : "Italienisch",
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 37
     },
     {
         "Name" : "Peperoni Pizza",
@@ -487,7 +528,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  ["Al's Pancake World", "Stars Hollow und Umgebung"],
         "Länderküche" : ["Amerikanisch", "Italienisch"],
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 38
     },
     {
         "Name" : "Chili Cheese Fries",
@@ -499,7 +541,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" : ["Luke's Diner", "Al's Pancake World", "Stars Hollow und Umgebung"] ,
         "Länderküche" : ["Amerikanisch", "Mexikanisch"],
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 38
     },
     {
         "Name" : "Tacos",
@@ -511,7 +554,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  ["Al's Pancake World", "Luke's Diner", "Stars Hollow und Umgebung"],
         "Länderküche" : "Mexikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 39
     },
     {
         "Name" : "Burritos",
@@ -523,7 +567,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  ["Al's Pancake World", "Luke's Diner", "Stars Hollow und Umgebung"],
         "Länderküche" : "Mexikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 39
     },
     {
         "Name" : "Hot Dogs",
@@ -535,7 +580,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  ["Al's Pancake World", "Luke's Diner", "Stars Hollow und Umgebung"],
         "Länderküche" : "Amerikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 40
     },
     {
         "Name" : "Pizza mit Käserand",
@@ -547,7 +593,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  ["Al's Pancake World", "Luke's Diner", "Stars Hollow und Umgebung"],
         "Länderküche" : ["Italienisch", "Amerikanisch"],
-        "Essweise" : ["vegetarisch", "tierisch"]
+        "Essweise" : ["vegetarisch", "tierisch"],
+        "Seite" : 41
     },
     {
         "Name" : "Käse- und Peperoni Toast Pizzen",
@@ -559,7 +606,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Lorelai",
         "Länderküche" : ["Amerikanisch", "Italienisch"],
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 42
     },
     {
         "Name" : "Tater Tots und Chicken Fingers",
@@ -571,7 +619,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" :  ["Lorelai", "Al's Pancake World"],
         "Länderküche" : "Amerikanisch",
-        "Essweise" : ["tierisch", "vegetarisch"]
+        "Essweise" : ["tierisch", "vegetarisch"],
+        "Seite" : 42
     },
     {
         "Name" : "Beefaroni",
@@ -583,7 +632,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  ["Lorelai", "Al's Pancake World"],
         "Länderküche" : "Amerikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 43
     },
     {
         "Name" : "Bagel Dogs",
@@ -595,7 +645,8 @@
         "Schwierigkeitsgrad" :["Leicht", "Mittel"],
         "Ort" :  "Lorelai",
         "Länderküche" : "Amerikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 44
     },
     {
         "Name" : "Mac and Cheese, Pizza Rolls, und Chili-Bohnen Suppe",
@@ -607,7 +658,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" :  ["Lorelai", "Al's Pancake World"],
         "Länderküche" : ["Amerikanisch", "Mexikanisch"],
-        "Essweise" : ["vegetarisch", "tierisch"]
+        "Essweise" : ["vegetarisch", "tierisch"],
+        "Seite" : 44
     },
     {
         "Name" : "Hangover Platte",
@@ -619,7 +671,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" :  ["Lorelai", "Al's Pancake World"],
         "Länderküche" : "Mexikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 45
     },
     {
         "Name" : "Steak Pizza und gebratene Nudeln",
@@ -631,7 +684,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  ["Lorelai", "Al's Pancake World"],
         "Länderküche" : ["Italienisch", "Chinesisch", "Asiatisch"],
-        "Essweise" : ["vegetarisch", "tierisch", "vegan"]
+        "Essweise" : ["vegetarisch", "tierisch", "vegan"],
+        "Seite" : 46
     },
     {
         "Name" : "Rory und Dean's Donna Reed Date",
@@ -643,7 +697,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" :  "Lorelai",
         "Länderküche" : "Amerikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 47
     },
     {
         "Name" : "Rory und Dean's 3-monatiges Dinner",
@@ -655,7 +710,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" :  ["Lorelai", "Stars Hollow und Umgebung"],
         "Länderküche" : "Italienisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 47
     },
     {
         "Name" : "Max's Ossobuco",
@@ -667,7 +723,8 @@
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : "Italienisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 48
     },
     {
         "Name" : "Mrs, Kim's eierlose Eiersalat-Sandwiches",
@@ -679,7 +736,8 @@
         "Schwierigkeitsgrad" :"Leicht" ,
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : "Amerikanisch",
-        "Essweise" : "vegan"
+        "Essweise" : "vegan",
+        "Seite" : 50
     },
     {
         "Name" : "Hector's Tacos",
@@ -691,7 +749,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : "Mexikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 50
     },
     {
         "Name" : "Nasi Goreng",
@@ -703,7 +762,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" : "Stars Hollow und Umgebung",
         "Länderküche" : "Balinesisch",
-        "Essweise" : "vegan"
+        "Essweise" : "vegan",
+        "Seite" : 51
     },
     {
         "Name" : "Gado-Gado",
@@ -715,7 +775,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : "Balinesisch",
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 52
     },
     {
         "Name" : "Hainanese Chicken Rice",
@@ -727,7 +788,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" : "Stars Hollow und Umgebung",
         "Länderküche" : "Singapurisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 52
     },
     {
         "Name" : "Roti Prata mit Curry",
@@ -739,7 +801,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : "Singapurisch",
-        "Essweise" : ["vegan", "vegetarisch"]
+        "Essweise" : ["vegan", "vegetarisch"],
+        "Seite" : 52
     },
     {
         "Name" : "Sauerkraut",
@@ -751,7 +814,8 @@
         "Schwierigkeitsgrad" : "Leicht" ,
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : "Deutsch",
-        "Essweise" : ["tierisch", "vegan", "vegetarisch"]
+        "Essweise" : ["tierisch", "vegan", "vegetarisch"],
+        "Seite" : 53
     },
     {
         "Name" : "Hildegard von Bingen's Dinkelbrot",
@@ -763,7 +827,8 @@
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : "Deutsch",
-        "Essweise" : ["vegan", "vegetarisch"]
+        "Essweise" : ["vegan", "vegetarisch"],
+        "Seite" : 53
     },
     {
         "Name" : "Hildegard von Bingen's Habermus",
@@ -775,7 +840,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : "Deutsch",
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 54
     },
     {
         "Name" : "Vegetarische Frühlingsrollen",
@@ -787,7 +853,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  ["Stars Hollow und Umgebung", "Al's Pancake World"],
         "Länderküche" : ["Chinesisch", "Asiatisch"],
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 55
     },
     {
         "Name" : "Veganes Sushi",
@@ -799,7 +866,8 @@
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : ["Japanisch", "Asiatisch"],
-        "Essweise" : "vegan"
+        "Essweise" : "vegan",
+        "Seite" : 55
     },
     {
         "Name" : "Vegetarische Ramen",
@@ -811,7 +879,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : "Japanisch",
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 55
     },
     {
         "Name" : "Chana Masala",
@@ -823,7 +892,8 @@
         "Schwierigkeitsgrad" : "Leicht" ,
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : "Indisch",
-        "Essweise" : ["vegan", "vegetarisch"]
+        "Essweise" : ["vegan", "vegetarisch"],
+        "Seite" : 56
     },
     {
         "Name" : "Vegane Samosas",
@@ -835,7 +905,8 @@
         "Schwierigkeitsgrad" : ["Mittel", "Schwer"],
         "Ort" :  ["Stars Hollow und Umgebung", "Al's Pancake World"],
         "Länderküche" : "Indisch",
-        "Essweise" : ["vegan", "Vegetarisch"]
+        "Essweise" : ["vegan", "Vegetarisch"],
+        "Seite" : 56
     },
     {
         "Name" : "Vegetarische Enchiladas",
@@ -847,7 +918,8 @@
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" : "Stars Hollow und Umgebung",
         "Länderküche" : "Mexikanisch",
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 57
     },
     {
         "Name" : "Chili sin Carne mit Linsen",
@@ -859,7 +931,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" : ["Stars Hollow und Umgebung", "Al's Pancake World"],
         "Länderküche" : "Mexikanisch",
-        "Essweise" : ["vegan", "vegetarisch"]
+        "Essweise" : ["vegan", "vegetarisch"],
+        "Seite" : 57
     },
     {
         "Name" : "Quesadillas",
@@ -871,7 +944,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : "Mexikanisch",
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 58
     },
     {
         "Name" : "Pizza",
@@ -883,7 +957,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" : ["Stars Hollow und Umgebung", "Al's Pancake World"],
         "Länderküche" : "Italienisch",
-        "Essweise" : ["vegetarisch", "vegan", "tierisch"]
+        "Essweise" : ["vegetarisch", "vegan", "tierisch"],
+        "Seite" : 58
     },
     {
         "Name" : "Sookie's Brokkoli Tarts",
@@ -895,7 +970,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : ["Französisch", "Amerikanisch"],
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 58
     },
     {
         "Name" : "Nachos mit Käse",
@@ -907,7 +983,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  ["Stars Hollow und Umgebung", "Al's Pancake World", "Luke's Diner"],
         "Länderküche" : "Mexikanisch",
-        "Essweise" : "vegetarisch"
+        "Essweise" : "vegetarisch",
+        "Seite" : 59
     },
     {
         "Name" : "Naco",
@@ -919,7 +996,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : "Mexikanisch",
-        "Essweise" : ["tierisch", "vegetarisch"]
+        "Essweise" : ["tierisch", "vegetarisch"],
+        "Seite" : 60
     },
     {
         "Name" : "Vegetarische Briouats",
@@ -931,7 +1009,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" : "Stars Hollow und Umgebung",
         "Länderküche" : "Marrokanisch" ,
-        "Essweise" : ["vegetarisch", "vegan"]
+        "Essweise" : ["vegetarisch", "vegan"],
+        "Seite" : 60
     },
     {
         "Name" : "Schwein süß-sauer",
@@ -943,7 +1022,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : ["Asiatisch", "Chinesisch"],
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 60
     },
     {
         "Name" : "Corn Dogs",
@@ -955,7 +1035,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : "Amerikanisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 61
     },
     {
         "Name" : "Pizza",
@@ -967,7 +1048,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  ["Stars Hollow und Umgebung", "Al's Pancake World"],
         "Länderküche" : "Italienisch",
-        "Essweise" : ["vegan", "vegetarisch", "tierisch"]
+        "Essweise" : ["vegan", "vegetarisch", "tierisch"],
+        "Seite" : 61
     },
     {
         "Name" : "Gazpacho",
@@ -979,7 +1061,8 @@
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" : "Stars Hollow und Umgebung",
         "Länderküche" : "Spanisch",
-        "Essweise" : ["vegetarisch", "vegan"]
+        "Essweise" : ["vegetarisch", "vegan"],
+        "Seite" : 61
     },
     {
         "Name" : "Ente mit Orangensoße",
@@ -991,7 +1074,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" : ["Stars Hollow und Umgebung", "Al's Pancake World"],
         "Länderküche" : ["Asiatisch", "Chinesisch"],
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 62
     },
     {
         "Name" : "Paella",
@@ -1003,7 +1087,8 @@
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" : "Stars Hollow und Umgebung",
         "Länderküche" : "Spanisch",
-        "Essweise" : ["tierisch", "vegetarisch", "vegan"]
+        "Essweise" : ["tierisch", "vegetarisch", "vegan"],
+        "Seite" : 62
     },
     {
         "Name" : "Potstickers",
@@ -1015,7 +1100,8 @@
         "Schwierigkeitsgrad" : "Mittel",
         "Ort" :  "Stars Hollow und Umgebung",
         "Länderküche" : "Asiatisch",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 63
     },
     {
         "Name" : "Sub Sandwich",
@@ -1026,7 +1112,8 @@
         "Zeitaufwand" : "Kurz",
         "Schwierigkeitsgrad" : "Leicht",
         "Ort" :  "Stars Hollow und Umgebung",
-        "Essweise" : "tierisch"
+        "Essweise" : "tierisch",
+        "Seite" : 63
     },
     {
         "Name" : "JoJo's Chili Burger",
@@ -1038,7 +1125,8 @@
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
         "Ort" : "Stars Hollow und Umgebung",
         "Länderküche" : ["Amerikanisch", "Mexikanisch"],
-        "Essweise" : ["tierisch", "vegetarisch", "vegan"]
+        "Essweise" : ["tierisch", "vegetarisch", "vegan"],
+        "Seite" : 64
     },
     {
         "Name" : "Pop-Tarts",
@@ -1047,7 +1135,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : "Mittel",
-        "Ort" :  "Lorelai"
+        "Ort" :  "Lorelai",
+        "Seite" : 65
     },
     {
         "Name" : "Erdbeer Pop-Tarts",
@@ -1056,7 +1145,8 @@
         "Jahreszeit" : ["Sommer", "Frühling"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : "Mittel",
-        "Ort" :  "Lorelai"
+        "Ort" :  "Lorelai",
+        "Seite" : 65
     },
     {
         "Name" : "Mrs. Field Cookies",
@@ -1065,7 +1155,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : ["Mittel", "Schwer"],
-        "Ort" :  ["Lorelai", "Stars Hollow und Umgebung"]
+        "Ort" :  ["Lorelai", "Stars Hollow und Umgebung"],
+        "Seite" : 66
     },
     {
         "Name" : "Nutter Butters",
@@ -1074,7 +1165,8 @@
         "Jahreszeit" : ["Herbst", "Winter", "Frühling"],
         "Zeitaufwand" : "Mittel",
         "Schwierigkeitsgrad" : "Mittel",
-        "Ort" :  ["Lorelai", "Stars Hollow und Umgebung"]
+        "Ort" :  ["Lorelai", "Stars Hollow und Umgebung"],
+        "Seite" : 67
     },
     {
         "Name" : "Cracker",
@@ -1083,7 +1175,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  ["Lorelai", "Stars Hollow und Umgebung"]
+        "Ort" :  ["Lorelai", "Stars Hollow und Umgebung"],
+        "Seite" : 68
     },
     {
         "Name" : "Meringue Cookies (Baiser)",
@@ -1092,7 +1185,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : ["Mittel", "Schwer"],
-        "Ort" :  ["Stars Hollow und Umgebung", "Emily"]
+        "Ort" :  ["Stars Hollow und Umgebung", "Emily"],
+        "Seite" : 68
     },
     {
         "Name" : "Rocky Road Cookies",
@@ -1101,7 +1195,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Mittel",
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" : "Stars Hollow und Umgebung"
+        "Ort" : "Stars Hollow und Umgebung",
+        "Seite" : 69
     },
     {
         "Name" : "Sookie's Marshmallow Cookies",
@@ -1110,7 +1205,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Kurz", "Mittel"],
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  "Stars Hollow und Umgebung"
+        "Ort" :  "Stars Hollow und Umgebung",
+        "Seite" : 70
     },
     {
         "Name" : "Fig Newtons",
@@ -1119,7 +1215,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : ["Mittel", "Schwer"],
-        "Ort" :  "Stars Hollow und Umgebung"
+        "Ort" :  "Stars Hollow und Umgebung",
+        "Seite" : 70
     },
     {
         "Name" : "Glutenfreie Amarettini",
@@ -1128,7 +1225,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  ["Stars Hollow und Umgebung", "Emily"]
+        "Ort" :  ["Stars Hollow und Umgebung", "Emily"],
+        "Seite" : 71
     },
     {
         "Name" : "Biscotti",
@@ -1137,7 +1235,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Mittel",
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  ["Stars Hollow und Umgebung", "Emily"]
+        "Ort" :  ["Stars Hollow und Umgebung", "Emily"],
+        "Seite" : 72
     },
     {
         "Name" : "Mrs. Kim's vegane, glutenfreie, zuckerfreie Muffins",
@@ -1146,7 +1245,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Kurz", "Mittel"],
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  "Stars Hollow und Umgebung"
+        "Ort" :  "Stars Hollow und Umgebung",
+        "Seite" : 73
     },
     {
         "Name" : "Orangenmuffins mit Zimtglasur",
@@ -1155,7 +1255,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Kurz", "Mittel"],
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  "Stars Hollow und Umgebung"
+        "Ort" :  "Stars Hollow und Umgebung",
+        "Seite" : 73
     },
     {
         "Name" : "Blaubeermuffins",
@@ -1164,7 +1265,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Kurz", "Mittel"],
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  ["Stars Hollow und Umgebung", "Luke's Diner"]
+        "Ort" :  ["Stars Hollow und Umgebung", "Luke's Diner"],
+        "Seite" : 74
     },
     {
         "Name" : "Blueberry Shortcake",
@@ -1173,7 +1275,8 @@
         "Jahreszeit" : ["Sommer", "Frühling"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : "Mittel",
-        "Ort" :  "Stars Hollow und Umgebung"
+        "Ort" :  "Stars Hollow und Umgebung",
+        "Seite" : 76
     },
     {
         "Name" : "Strawberry Shortcake",
@@ -1182,7 +1285,8 @@
         "Jahreszeit" : ["Sommer", "Frühling"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : "Mittel",
-        "Ort" :  "Stars Hollow und Umgebung"
+        "Ort" :  "Stars Hollow und Umgebung",
+        "Seite" : 77
     },
     {
         "Name" : "Apfel Tartelettes",
@@ -1191,7 +1295,8 @@
         "Jahreszeit" : ["Herbst", "Winter"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : "Mittel",
-        "Ort" :  "Stars Hollow und Umgebung"
+        "Ort" :  "Stars Hollow und Umgebung",
+        "Seite" : 77
     },
     {
         "Name" : "Luke's Cherry Danish",
@@ -1200,7 +1305,8 @@
         "Jahreszeit" : ["Sommer", "Herbst", "Frühling"],
         "Zeitaufwand" : "Mittel",
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"] ,
-        "Ort" :  "Luke's Diner"
+        "Ort" :  "Luke's Diner",
+        "Seite" : 79
     },
     {
         "Name" : "Himbeerkuchen",
@@ -1209,7 +1315,8 @@
         "Jahreszeit" : ["Sommer", "Frühling"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  "Stars Hollow und Umgebung"
+        "Ort" :  "Stars Hollow und Umgebung",
+        "Seite" : 79
     },
     {
         "Name" : "Kirschkuchen",
@@ -1218,7 +1325,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : ["Leicht" , "Mittel"],
-        "Ort" :  ["Stars Hollow und Umgebung", "Luke's Diner", "Emily"]
+        "Ort" :  ["Stars Hollow und Umgebung", "Luke's Diner", "Emily"],
+        "Seite" : 80
     },
     {
         "Name" : "Pumpkin Pie",
@@ -1227,7 +1335,8 @@
         "Jahreszeit" : "Herbst",
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  ["Luke's Diner", "Stars Hollow und Umgebung"]
+        "Ort" :  ["Luke's Diner", "Stars Hollow und Umgebung"],
+        "Seite" : 81
     },
     {
         "Name" : "Banana Cream Pie",
@@ -1236,7 +1345,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Kurz", "Mittel"],
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  "Stars Hollow und Umgebung"
+        "Ort" :  "Stars Hollow und Umgebung",
+        "Seite" : 81
     },
     {
         "Name" : "Rhabarberkuchen",
@@ -1245,7 +1355,8 @@
         "Jahreszeit" : ["Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : "Mittel",
-        "Ort" :  ["Stars Hollow und Umgebung", "Emily", "Luke's Diner"]
+        "Ort" :  ["Stars Hollow und Umgebung", "Emily", "Luke's Diner"],
+        "Seite" : 82
     },
     {
         "Name" : "Mini Zitronen Gugelhupf",
@@ -1254,7 +1365,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Mittel",
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  "Stars Hollow und Umgebung"
+        "Ort" :  "Stars Hollow und Umgebung",
+        "Seite" : 83
     },
     {
         "Name" : "Rumkugeln aus Kuchenresten",
@@ -1263,16 +1375,18 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  ["Stars Hollow und Umgebung", "Emily"]
+        "Ort" :  ["Stars Hollow und Umgebung", "Emily"],
+        "Seite" : 83
     },
     {
-        "Name" : "Luke's Espresso-Kuchen mit Sckokoglasur und schokolierten Espressobohnen",
+        "Name" : "Abschluss Espresso-Kuchen mit Sckokoglasur und schokolierten Espressobohnen",
         "Gang" : "Dessert",
         "Art" : "Kuchen",
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : ["Mittel", "Schwer"],
-        "Ort" : "Luke's Diner"
+        "Ort" : ["Luke's Diner", "Stars Hollow und Umgebung"]
+        "Seite" : 84
     },
     {
         "Name" : "Luke's Boysenbeeren Pie",
@@ -1281,7 +1395,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : ["Mittel", "Schwer"],
-        "Ort" :  "Luke's Diner"
+        "Ort" :  "Luke's Diner",
+        "Seite" : 85
     },
     {
         "Name" : "Brownies",
@@ -1290,7 +1405,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  ["Luke's Diner", "Stars Hollow und Umgebung"]
+        "Ort" :  ["Luke's Diner", "Stars Hollow und Umgebung"],
+        "Seite" : 85
     },
     {
         "Name" : "Blintzes",
@@ -1299,7 +1415,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : "Mittel",
-        "Ort" :  "Stars Hollow und Umgebung"
+        "Ort" :  "Stars Hollow und Umgebung",
+        "Seite" : 86
     },
     {
         "Name" : "Grundrezept Doughnuts",
@@ -1308,7 +1425,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  ["Luke's Diner", "Stars Hollow und Umgebung"]
+        "Ort" :  ["Luke's Diner", "Stars Hollow und Umgebung"],
+        "Seite" : 87
     },
     {
         "Name" : "Mini-Doughnuts",
@@ -1317,7 +1435,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  ["Luke's Diner", "Stars Hollow und Umgebung"]
+        "Ort" :  ["Luke's Diner", "Stars Hollow und Umgebung"],
+        "Seite" : 87
     },
     {
         "Name" : "Glasierte Doughnuts",
@@ -1326,7 +1445,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  ["Luke's Diner", "Stars Hollow und Umgebung"]
+        "Ort" :  ["Luke's Diner", "Stars Hollow und Umgebung"],
+        "Seite" : 88
     },
     {
         "Name" : "Zimt-Zucker Brezeln",
@@ -1335,7 +1455,8 @@
         "Jahreszeit" : "Herbst",
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  ["Luke's Diner", "Stars Hollow und Umgebung"]
+        "Ort" :  ["Luke's Diner", "Stars Hollow und Umgebung"],
+        "Seite" : 88
     },
     {
         "Name" : "Rory's Lime Fantasy Supreme",
@@ -1344,7 +1465,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  ["Stars Hollow und Umgebung", "Lorelai"]
+        "Ort" :  ["Stars Hollow und Umgebung", "Lorelai"],
+        "Seite" : 90
     },
     {
         "Name" : "Obstsalat",
@@ -1353,7 +1475,8 @@
         "Jahreszeit" : ["Sommer", "Frühling"],
         "Zeitaufwand" : "Kurz",
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" : ["Stars Hollow und Umgebung", "Emily"]
+        "Ort" : ["Stars Hollow und Umgebung", "Emily"],
+        "Seite" : 90
     },
     {
         "Name" : "Soufflé",
@@ -1362,7 +1485,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Kurz", "Mittel"],
         "Schwierigkeitsgrad" : ["Mittel", "Schwer"],
-        "Ort" :  ["Stars Hollow und Umgebung", "Emily"]
+        "Ort" :  ["Stars Hollow und Umgebung", "Emily"],
+        "Seite" : 92
     },
     {
         "Name" : "Crème Brûlée",
@@ -1371,7 +1495,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Mittel",
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  ["Stars Hollow und Umgebung", "Emily"]
+        "Ort" :  ["Stars Hollow und Umgebung", "Emily"],
+        "Seite" : 92
     },
     {
         "Name" : "Tiramisu",
@@ -1380,7 +1505,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  ["Stars Hollow und Umgebung", "Emily"]
+        "Ort" :  ["Stars Hollow und Umgebung", "Emily"],
+        "Seite" : 93
     },
     {
         "Name" : "Roquefort Puffs",
@@ -1389,16 +1515,18 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : ["Mittel", "Schwer"],
-        "Ort" :  ["Emily", "Stars Hollow und Umgebung"]
+        "Ort" :  ["Emily", "Stars Hollow und Umgebung"],
+        "Seite" : 93
     },
     {
-        "Name" : "Emily's Knoblauch-Rosmarin-Focaccia",
+        "Name" : "Luke's Knoblauch-Rosmarin-Focaccia",
         "Gang" : "Dessert",
         "Art" : "Brote und Teigwaren",
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  "Emily"
+        "Ort" :  ["Emily", "Luke's Diner"]
+        "Seite" : 95
     },
     {
         "Name" : "Knoblauchknoten",
@@ -1407,7 +1535,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  ["Luke's Diner", "Stars Hollow und Umgebung"]
+        "Ort" :  ["Luke's Diner", "Stars Hollow und Umgebung"],
+        "Seite" : 95
     },
     {
         "Name" : "Brotschalen",
@@ -1416,7 +1545,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  "Stars Hollow und Umgebung"
+        "Ort" :  "Stars Hollow und Umgebung",
+        "Seite" : 96
     },
     {
         "Name" : "Blätterteig",
@@ -1425,7 +1555,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : "Schwer",
-        "Ort" :  "Stars Hollow und Umgebung"
+        "Ort" :  "Stars Hollow und Umgebung",
+        "Seite" : 96
     },
     {
         "Name" : "Tortilla Chips, Nachos, Tortilla-Wraps",
@@ -1434,7 +1565,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  ["Al's Pancake World", "Luke's Diner", "Stars Hollow und Umgebung"]
+        "Ort" :  ["Al's Pancake World", "Luke's Diner", "Stars Hollow und Umgebung"],
+        "Seite" : 97
     },
     {
         "Name" : "Pizzateig",
@@ -1443,7 +1575,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  ["Al's Pancake World", "Stars Hollow und Umgebung"]
+        "Ort" :  ["Al's Pancake World", "Stars Hollow und Umgebung"],
+        "Seite" : 97
     },
     {
         "Name" : "Dumpling Wrapper",
@@ -1452,7 +1585,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Kurz", "Mittel"],
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  ["Al's Pancake World", "Stars Hollow und Umgebung"]
+        "Ort" :  ["Al's Pancake World", "Stars Hollow und Umgebung"],
+        "Seite" : 98
     },
     {
         "Name" : "Luke's Zwiebelringe",
@@ -1461,7 +1595,8 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  "Luke's Diner"
+        "Ort" :  "Luke's Diner",
+        "Seite" : 99
     },
     {
         "Name" : "Salat mit Zitronendressing",
@@ -1470,6 +1605,7 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Kurz",
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  "Emily"
+        "Ort" :  "Emily",
+        "Seite" : 99
     }
 ]
