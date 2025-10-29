@@ -100,7 +100,7 @@
         "Jahreszeit" : ["Herbst", "Sommer", "Winter"],
         "Zeitaufwand" : "Kurz",
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  ["Emily", "Luke's Diner"]
+        "Ort" :  ["Emily", "Luke's Diner"],
         "Essweise" : "vegetarisch",
         "Seite" : 22
     },
@@ -112,7 +112,7 @@
         "Jahreszeit" : ["Sommer", "Herbst", "Frühling"],
         "Zeitaufwand" : "Kurz",
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  ["Emily", "Luke's Diner"]
+        "Ort" :  ["Emily", "Luke's Diner"],
         "Essweise" : "vegetarisch",
         "Seite" : 23
     },
@@ -163,7 +163,7 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Mittel",
         "Schwierigkeitsgrad" : "Leicht",
-        "Ort" :  ["Emily", "Luke's Diner"]
+        "Ort" :  ["Emily", "Luke's Diner"],
         "Essweise" : "tierisch",
         "Seite" : 24
     },
@@ -1385,7 +1385,7 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : ["Mittel", "Lang"],
         "Schwierigkeitsgrad" : ["Mittel", "Schwer"],
-        "Ort" : ["Luke's Diner", "Stars Hollow und Umgebung"]
+        "Ort" : ["Luke's Diner", "Stars Hollow und Umgebung"],
         "Seite" : 84
     },
     {
@@ -1525,7 +1525,7 @@
         "Jahreszeit" : ["Frühling", "Sommer", "Herbst", "Winter"],
         "Zeitaufwand" : "Lang",
         "Schwierigkeitsgrad" : ["Leicht", "Mittel"],
-        "Ort" :  ["Emily", "Luke's Diner"]
+        "Ort" :  ["Emily", "Luke's Diner"],
         "Seite" : 95
     },
     {
