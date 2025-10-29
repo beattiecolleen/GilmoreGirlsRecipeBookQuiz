@@ -123,7 +123,7 @@ function showResult() {
 
   const chosen = filtered[Math.floor(Math.random() * filtered.length)];
   rezeptName.textContent = chosen.Name || "Unbekanntes Rezept";
-  rezeptSeite.textContent = chosen.Seite ? "Seite" + chosen.Seite : "(Seite im Buch folgt später)";
+  rezeptSeite.textContent = chosen.Seite ? "Seite " + chosen.Seite : "(Seite im Buch folgt später)";
 }
 
 // Hilfsfunktion: Key korrekt großschreiben
@@ -205,8 +205,6 @@ function matchesUserSelection(recipe, selections) {
 }
 
 // Zufällige gültige Optionen für „Überrasch mich“
-// Zufällige gültige Optionen für „Überrasch mich“
-// Nutzt die streng-aber-fallback-sichere matchesUserSelection
 function getValidRandomOptions(question) {
   const candidates = new Set();
 
