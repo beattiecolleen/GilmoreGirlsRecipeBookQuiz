@@ -64,9 +64,9 @@ h2 {
    OPTION BUTTONS
 ======================== */
 .option-button {
-  padding: 12px 20px;
-  margin: 5px 0;
-  font-size: 16px;
+  padding: 20px 30px;
+  margin: 15px 0;
+  font-size: 25px;
   border: none;
   border-radius: 12px;
   cursor: pointer;
